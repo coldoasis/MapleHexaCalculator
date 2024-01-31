@@ -209,8 +209,8 @@ function HexaCalculator() {
       <div className="header-container">
         <img src={HexaIcon} alt="HexaIcon" className="Hexa-Icon" />
         <h2>Hexa Calculator</h2>
-        <hr />
       </div>
+      <hr />
       <div className="input-container">
         <label>
           Hexa Skill Type:
@@ -249,9 +249,10 @@ function HexaCalculator() {
       <button onClick={calculateResult}>Calculate</button>
       {/* Display the result in a nice container */}
       {result && (
-        <div className="result-container">
+        <div>
             <p>You would require the following materials</p>
-            <hr />
+            <hr/>
+        <div className="result-container">
           <div className="result-item">
             <img src={solErdaIcon} alt="Sol Erda Icon" className="result-icon" />
             <p>Total Sol Erda: {result.totalSolErda}</p>
@@ -260,6 +261,7 @@ function HexaCalculator() {
             <img src={solErdaFragmentIcon} alt="Sol Erda Fragment Icon" className="result-icon" />
             <p>Total Sol Erda Fragment: {result.totalSolErdaFragment}</p>
           </div>
+        </div>
         </div>
       )}
     </div>
