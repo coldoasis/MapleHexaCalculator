@@ -9,7 +9,7 @@ import solErdaFragmentIcon from './sol-erda-fragment.png';
 
 function HexaCalculator() {
   // State to store user inputs
-  const [skillType, setSkillType] = useState(''); // Default value is an empty string
+  const [skillType, setSkillType] = useState('Origin'); // Default value is an empty string
   const [currentSkillLevel, setCurrentSkillLevel] = useState(0); // Default value is 0
   const [expectedSkillLevel, setExpectedSkillLevel] = useState(0); // Default value is 0
   const [result, setResult] = useState(null); // State to store the calculation result
@@ -34,6 +34,7 @@ function HexaCalculator() {
     // Skill type to amounts mapping with levels
     const skillTypeMapping = {
       Origin: {
+        0: { solErdaFragment: 0, solErda: 0 },
         1: { solErdaFragment: 100, solErda: 5 },
         2: { solErdaFragment: 30, solErda: 1 },
         3: { solErdaFragment: 35, solErda: 1 },
@@ -67,6 +68,7 @@ function HexaCalculator() {
         // Add more levels as needed
       },
       Enhance: {
+        0: { solErdaFragment: 0, solErda: 0 },
         1: { solErdaFragment: 75, solErda: 3 },
         2: { solErdaFragment: 23, solErda: 1},
         3: { solErdaFragment: 27, solErda: 1 },
@@ -100,6 +102,7 @@ function HexaCalculator() {
         // Add more levels as needed
       },
       Mastery: {
+        0: { solErdaFragment: 0, solErda: 0 },
         1: { solErdaFragment: 50, solErda: 1 },
         2: { solErdaFragment: 15, solErda: 1 },
         3: { solErdaFragment: 18, solErda: 1 },
@@ -133,6 +136,7 @@ function HexaCalculator() {
         // Add more levels as needed
       },
       Common: {
+        0: { solErdaFragment: 0, solErda: 0 },
         1: { solErdaFragment: 125, solErda: 7 },
         2: { solErdaFragment: 38, solErda: 2 },
         3: { solErdaFragment: 44, solErda: 2 },
@@ -224,7 +228,7 @@ function HexaCalculator() {
             type="number"
             value={currentSkillLevel}
             onChange={handleCurrentSkillLevelChange}
-            min="1"
+            min="0"
             max="30"
           />
         </label>
