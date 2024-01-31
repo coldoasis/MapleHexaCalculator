@@ -1,24 +1,31 @@
 import './App.css';
-import myImage from './6thjob.jpg';
+import './TableContainer.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src= {myImage} className="Six-JobLogo" alt="sixjob" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <h1>6th Job (Hexa Matrix)
+      </h1>
+      <div className="table-container">
+      <table className="custom-table">
+        <thead>
+          <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
+    </div>
+
   );
 }
 

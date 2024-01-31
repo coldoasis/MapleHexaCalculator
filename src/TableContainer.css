@@ -1,0 +1,24 @@
+/* TableContainer.css */
+
+.table-container {
+    background-color: #dcdcdc; /* Grey background color */
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white; /* Background color for the table */
+  }
+  
+  .custom-table th, .custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .custom-table th {
+    background-color: #f2f2f2; /* Background color for header cells */
+  }
+  
