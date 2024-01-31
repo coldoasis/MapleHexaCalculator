@@ -209,6 +209,7 @@ function HexaCalculator() {
       <div className="header-container">
         <img src={HexaIcon} alt="HexaIcon" className="Hexa-Icon" />
         <h2>Hexa Calculator</h2>
+        <hr />
       </div>
       <div className="input-container">
         <label>
@@ -249,6 +250,8 @@ function HexaCalculator() {
       {/* Display the result in a nice container */}
       {result && (
         <div className="result-container">
+            <p>You would require the following materials</p>
+            <hr />
           <div className="result-item">
             <img src={solErdaIcon} alt="Sol Erda Icon" className="result-icon" />
             <p>Total Sol Erda: {result.totalSolErda}</p>
