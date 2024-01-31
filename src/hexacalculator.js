@@ -250,6 +250,7 @@ function HexaCalculator() {
       {/* Display the result in a nice container */}
       {result && (
         <div>
+            <hr/>
             <p>You would require the following materials</p>
             <hr/>
         <div className="result-container">
