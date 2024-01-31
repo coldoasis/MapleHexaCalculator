@@ -1,11 +1,11 @@
-import sixjob from './6thjob.png';
 import './App.css';
+import myImage from './6thjob.jpg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={sixjob} className="Six-JobLogo" alt="logo" />
+        <img src= {myImage} className="Six-JobLogo" alt="sixjob" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
