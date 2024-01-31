@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MapleHexaCalculator/static/css/main.ec5f5e30.css",
-    "main.js": "/MapleHexaCalculator/static/js/main.52ce8334.js",
+    "main.css": "/MapleHexaCalculator/static/css/main.324bd1b7.css",
+    "main.js": "/MapleHexaCalculator/static/js/main.407e0e7f.js",
     "static/js/787.25128d80.chunk.js": "/MapleHexaCalculator/static/js/787.25128d80.chunk.js",
     "static/media/6thjob.jpg": "/MapleHexaCalculator/static/media/6thjob.d4257dd60eeaad90493e.jpg",
     "index.html": "/MapleHexaCalculator/index.html",
-    "main.ec5f5e30.css.map": "/MapleHexaCalculator/static/css/main.ec5f5e30.css.map",
-    "main.52ce8334.js.map": "/MapleHexaCalculator/static/js/main.52ce8334.js.map",
+    "main.324bd1b7.css.map": "/MapleHexaCalculator/static/css/main.324bd1b7.css.map",
+    "main.407e0e7f.js.map": "/MapleHexaCalculator/static/js/main.407e0e7f.js.map",
     "787.25128d80.chunk.js.map": "/MapleHexaCalculator/static/js/787.25128d80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec5f5e30.css",
-    "static/js/main.52ce8334.js"
+    "static/css/main.324bd1b7.css",
+    "static/js/main.407e0e7f.js"
   ]
 }
