@@ -9,6 +9,38 @@
   }
   
   .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 15px;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .Hexa-Icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .result-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .result-item {
+    text-align: center;
+  }
+  
+  .result-icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
   }
   
