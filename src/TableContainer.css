@@ -9,7 +9,7 @@
   .custom-table {
     width: 100%;
     border-collapse: collapse;
-    background-color: white; /* Background color for the table */
+    background-color: rgb(43, 43, 43); /* Background color for the table */
   }
   
   .custom-table th, .custom-table td {
@@ -19,6 +19,6 @@
   }
   
   .custom-table th {
-    background-color: #f2f2f2; /* Background color for header cells */
+    background-color: #575454; /* Background color for header cells */
   }
   
